@@ -1,0 +1,127 @@
+/* 
+ * Theme Name: cloudcomputingZY test 
+ * Theme URI: http://wwww.cloudcomputingZY.com
+ * Description: test for theme
+ * Version: 0.1
+ * Author: july
+ * Author URI: http://www.cloudcomputingZY.com
+ * Tags: test,fun
+ * */
+*{
+   margin:0;
+   padding:0;
+   font-size:normal;
+}
+
+#bg{
+   /* background: url(./images/bamboo.png) no-repeat center center fixed;
+  background-size:200px 768px;*/
+    background-color: #C3C2C2;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background: radial-gradient(#DCDBDB, #A6E0FA);
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background: url(./images/cs1.jpg);
+  float: left;
+  border-radius: 50px;
+}
+
+.nav{
+ /* position: absolute;*/
+   margin-top:40px; /*control the three links' vertical position*/
+   margin-left: 120px;
+   margin-right: 120px;
+     background-color: #81D2FF;
+     height: 40px;
+     border-radius: 15px 50px;
+     background: linear-gradient(to right, white , #74ABF1); 
+   /*position:center;*/
+    /*control the three links' horizontal position*/
+}
+
+
+.top{
+    font-size: 220%;
+/*    position: absolute;*/
+    margin-top:30px;
+    text-align: left;/*make the top text center*/
+}
+
+.center{
+  margin-top: 20px ;
+  margin-left:200px;
+  margin-right:200px;
+  height: 570px;
+  /*width: 1000px;*/
+  border: solid 1px #25ADE9;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px #3B91E3;
+}
+
+.pic{
+
+   position: absolute;
+    top: 200px;
+    left: 360px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #3B91E3;
+    z-index:-1;
+}
+
+.foot{
+ /*   position:absolute;*/
+ /*   bottom: 20px;*/
+    text-align: right;
+    color: #B46A6A;
+    position: relative;
+    right: 10px;
+    bottom: -390px;
+}
+
+ul{
+   list-style:none;
+   font-size:150%;
+}
+ul li{
+    background-color: transparent;/*#8FF7A8;*/
+   float:left;
+   line-height:40px;  /*垂直中间显示*/
+   text-align:center;
+   /*margin-right: 100px;*/
+}
+a{
+  text-decoration:none;
+  color:#FF7A25;
+  display:block;
+  width:150px;
+  height:40px;
+}
+ul li ul li{
+    float:none;
+    font:#095b8d;
+    font-size:67%;
+}
+ul li ul{
+  overflow:hdden;
+  display:none;  /*初始化的时候，显示方便*/
+}
+/*为了兼容IE7设置的CSS样式，但是又必须写在a:hover前面*/
+ul li ul li a:link,ul li ul li a:visited{
+    background-color: #DBEBF4;/*#FA77FF;*/
+    color:black;
+}
+ul li ul li a:hover{
+    background-color:#FCE5C7;
+}
+
+
+
+
+
